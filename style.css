@@ -176,6 +176,7 @@ body{
 .dropbtn:hover,
 .dropbtn.active{
     color: orange;
+    border: none;
 }
 .dropdown-menu{
     display: none;
@@ -584,7 +585,9 @@ pointer-events: auto;
     margin-top: 100px;
 }
 .payment-method{
-    height: 80px;
+    height: 50px;
+    min-width: 50px;
+    padding: 5px;
 }
 
 
@@ -1203,10 +1206,10 @@ th:last-child{
     cursor: pointer;
 }
 
-.products{
+.products-listing{
     margin-top: 50px;
     padding: 4rem 0;
-    margin-bottom: 1000px;
+    margin-bottom: 20px;
     margin-left: 100px;
     /* overflow: hidden; */
 }
