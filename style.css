@@ -177,6 +177,7 @@ body{
 .dropbtn.active{
     color: orange;
     border: none;
+ outline-color: none
 }
 .dropdown-menu{
     display: none;
