@@ -1210,7 +1210,8 @@ th:last-child{
     margin-top: 50px;
     padding: 4rem 0;
     margin-bottom: 20px;
-    margin-left: 100px;
+    margin-left: 10px;
+    margin-right:0px;
     /* overflow: hidden; */
 }
 
