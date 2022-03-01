@@ -1169,9 +1169,6 @@ th:last-child{
     background-position: center;
     background-size: cover; 
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    /* position: fixed; */
-    /* border: 0.5rem solid orange; */
     border-radius: 0.5rem;
     position: relative;
     margin: 4rem auto;
