@@ -127,17 +127,15 @@ window.onclick = function(e){
                 if(counter < 0){
                     counter = pictures.length - 1
                 }
-                imgDiv.style.background = `url('/${pictures[counter]}.png')`
+                imgDiv.style.backgroundImage = `url('/${pictures[counter]}.png')`
             }
             if(button.classList.contains('btn-right')){
                 counter++
                 if(counter > pictures.length - 1){
                     counter = 0
                 }
-                imgDiv.style.background = `url('/${pictures[counter]}.png')`
-                console.log(imgDiv.style.background)
-                
-            }
+                imgDiv.style.backgroundImage = `url('/${pictures[counter]}.png')`      
+          }
         })
     })
     })();
